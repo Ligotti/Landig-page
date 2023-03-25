@@ -120,7 +120,7 @@ body{
     padding: 13px 25px;
     margin: 10px;
     border-radius: 200px;
-    background-color: #E83D2C;
+    background-color: #a83c11;
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
@@ -130,7 +130,7 @@ body{
     background-color:  #14202a;
 }
 
-.Nosotros{
+.oferta{
     background-image: url('https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80');
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -141,7 +141,7 @@ body{
 }
 
 
-.Nosotros-txt{
+.oferta-txt{
     width: 50%;
     margin: 20px;
 }
@@ -158,4 +158,40 @@ p{
     font-size: 16px;
     color: #101010;
     margin-bottom: 25px;
+}
+
+.pizzas{
+    text-align: center;
+    padding: 0 0 100px 0;
+
+}
+
+.pizzas-content{
+    margin: 50px 0 70px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.pizza-1{
+    width: 400px;
+    padding: 25px 50px;
+}
+
+.pizza-1 img{
+    width: 200px;
+}
+
+.pizza-1 h3{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.pizza-1 span{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    color: #a83c11;
+    margin-bottom: 15px;
 }
