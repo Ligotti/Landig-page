@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 /*font-family: 'Bebas Neue', cursive;
 font-family: 'Poppins', sans-serif;*/
@@ -43,7 +43,8 @@ body{
 
 .logo{
     color: #fefefe;
-    font-size: 25px;
+    font-family: 'Fasthand', cursive;
+    font-size: 40px;
     font-weight: 800;
 }
 
@@ -260,6 +261,7 @@ input{
 }
 
 .footer-content{
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
 }
@@ -279,4 +281,116 @@ input{
 
 .links a:hover{
     color: #a83c11;
+}
+
+@media(max-widht:991px) {
+
+    .menu{
+        padding: 30px
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0; 
+        right: 0;
+        background-color: #F5BE20;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+        background-position: left bottom;
+    }
+
+    .header-content{
+        padding: 100px 30px 50px 30px;
+    }
+
+    .header-txt{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-txt h1{
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .oferta{
+        padding: 30px 30px 0 30px;
+        flex-direction: column;
+    }
+
+    .oferta-img{
+        width: 100%;
+        order: 2;
+    }
+
+    .oferta-img img{
+        height: 400px;
+    }
+
+    .oferta-txt{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .pizzas{
+        padding: 30px;
+    }
+
+    .pizzas-content{
+        margin: 0;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .pizza-1{
+        width: 100%;
+        padding: 0;
+    }
+
+    .Suscripcion{
+        padding: 30px;
+    }
+
+    .Suscripcion-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sus-1, .sus-2{
+        padding: 0;
+        width: 100%;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+
 }
