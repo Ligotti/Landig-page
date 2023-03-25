@@ -170,7 +170,7 @@ p{
     margin: 50px 0 70px 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
+    gap: 150px;
 }
 
 .pizza-1{
@@ -194,4 +194,61 @@ p{
     font-weight: 800;
     color: #a83c11;
     margin-bottom: 15px;
+}
+
+.Suscripcion{
+    padding: 100px 0;
+    background-color: #14202a;
+}
+
+.Suscripcion-container{
+    display: flex;
+    align-items: center;
+}
+
+.sus-1{
+    padding-left: 100px;
+    width: 50%;
+}
+
+.sus-1 h3{
+    font-size: 30px;
+    color: #fefefe;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.sus-1 p{
+    color: #fefefe;
+}
+
+.sus-2{
+    width: 50%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 350px;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    margin-right: 5px;
+    border-radius: 150px;
+}
+
+.btn-2{
+    width: 110px;
+    background-color: #a83c11;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fefefe;
+
+}
+
+.btn-2:hover{
+    background-color:  #F5BE20;
 }
